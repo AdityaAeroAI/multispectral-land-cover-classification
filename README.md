@@ -134,6 +134,7 @@ This suggests that additional spectral information can help distinguish certain 
 multispectral-land-cover-classification/
 │
 ├── LICENSE
+├──.gitignore
 ├── README.md
 ├── requirements.txt
 ├── satellite_land_cover_classification.py
