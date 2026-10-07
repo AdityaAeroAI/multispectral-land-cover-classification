@@ -121,21 +121,17 @@ This suggests that additional spectral information can help distinguish certain 
 ```text
 multispectral-land-cover-classification/
 │
+├── LICENSE
 ├── README.md
 ├── requirements.txt
+├── satellite_land_cover_classification.py
+├── satellite_land_cover_classification.ipynb
 │
-├── notebooks/
-│   └── satellite_land_cover_classification.ipynb
-│
-├── src/
-│   └── feature_extraction.py
-│
-├── results/
-│   ├── rgb_confusion_matrix.png
-│   ├── multispectral_confusion_matrix.png
-│   └── accuracy_comparison.png
-│
-└── .gitignore
+└── results/
+    ├── README.md
+    ├── rgb_confusion_matrix.png
+    ├── multispectral_ndvi_confusion_matrix.png
+    └── top_multispectral_features.png
 ```
 
 ## 🚀 How to Run
